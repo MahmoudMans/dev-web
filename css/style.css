@@ -35,7 +35,7 @@ overflow:hidden;
 
 }
 #img4{
-background-image: url('./res/image4.png');
+background-image: url('../res/image4.png');
 height: 150px;
 width: 250px;
 }
@@ -48,7 +48,7 @@ width: 250px;
 
 
 #img5{
-  background-image: url('./res/image5.png');
+  background-image: url('../res/image5.png');
 height: 150px;
 width: 250px;
 }
@@ -57,7 +57,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img6{
-  background-image: url('./res/image6.png');
+  background-image: url('../res/image6.png');
 height: 150px;
 width: 250px;
 }
@@ -66,7 +66,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img7{
-  background-image: url('./res/image7.png');
+  background-image: url('../res/image7.png');
 height: 150px;
 width: 250px;
 }
@@ -75,7 +75,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img8{
-  background-image: url('./res/image8.png');
+  background-image: url('../res/image8.png');
   height: 150px;
   width: 250px;
 }
@@ -84,7 +84,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img9{
-  background-image: url('./res/image9.png');
+  background-image: url('../res/image9.png');
   height: 150px;
   width: 250px;
 }
@@ -93,7 +93,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img11{
-  background-image: url('./res/image1.png');
+  background-image: url('../res/image1.png');
   height: 150px;
   width: 250px;
 }
@@ -102,7 +102,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img22{
-  background-image: url('./res/image2.png');
+  background-image: url('../res/image2.png');
   height: 150px;
   width: 250px;
 }
@@ -111,7 +111,7 @@ width: 250px;
   opacity: 0.5;
 }
 #img33{
-  background-image: url('./res/image3.png');
+  background-image: url('../res/image3.png');
   height: 150px;
   width: 250px;
 }
