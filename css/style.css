@@ -1,211 +1,317 @@
 body{
-  background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%)
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%)
 
 ,Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
+#ulNav{
+  margin-left:23%;
+}
+
+#ulNav>li{
+  margin-left:70px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
   
 }
-#logo img{
-height:60px
+#ulNav>li>a{
+  color:white !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ulNav>li>a:hover {
+  color:red !important;
+}
+body{
+  background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, black, black 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.navbar{
+  background-color: transparent !important;
+  border-color:transparent !important;
 }
 
-nav a{
-color: white !important;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding-top:40 px;
-padding-bottom: 40px;
-line-height: 40px;
-position: relative;
-  padding: 10px 15px;
-  text-decoration:none;
-  font-size: 30px;
-  ;
+/*
+ul{
+  flex-direction: column;
 }
+
+li{
+  margin: 0;
+}
+
+a{
+  display: block;
+} 
+*/
+/*
 nav a:hover{
-color: red !important;
-
+  color: red !important;
+	
 }
-
+*/
 .myimg {
-margin:20px;
+  margin:20px;
 
-display:inline-block;
-background-size: cover;
-overflow:hidden;
+  display:inline-block;
+  background-size: cover;
+  overflow:hidden;
 
 
 }
 #img4{
-background-image: url('../res/image4.png');
-height: 150px;
-width: 250px;
+  background-image: url('../res/image4.png');
+  height: 150px;
+  width: 250px;
+  }
+
+
+  #img4:hover{
+    background-color:black;
+    opacity: 0.5;
 }
 
 
-#img4:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-
-
-#img5{
-  background-image: url('../res/image5.png');
-height: 150px;
-width: 250px;
-}
-#img5:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-#img6{
-  background-image: url('../res/image6.png');
-height: 150px;
-width: 250px;
-}
-#img6:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-#img7{
-  background-image: url('../res/image7.png');
-height: 150px;
-width: 250px;
-}
-#img7:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-#img8{
-  background-image: url('../res/image8.png');
+  #img5{
+    background-image: url('../res/image5.png');
   height: 150px;
   width: 250px;
+  }
+  #img5:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img8:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-#img9{
-  background-image: url('../res/image9.png');
+  #img6{
+    background-image: url('../res/image6.png');
   height: 150px;
   width: 250px;
+  }
+  #img6:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img9:hover{
-  background-color:black;
-  opacity: 0.5;
-}
-#img11{
-  background-image: url('../res/image1.png');
+  #img7{
+    background-image: url('../res/image7.png');
   height: 150px;
   width: 250px;
+  }
+  #img7:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img11:hover{
-  background-color:black;
-  opacity: 0.5;
+  #img8{
+    background-image: url('../res/image8.png');
+    height: 150px;
+    width: 250px;
+  }
+  #img8:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img22{
-  background-image: url('../res/image2.png');
-  height: 150px;
-  width: 250px;
+  #img9{
+    background-image: url('../res/image9.png');
+    height: 150px;
+    width: 250px;
+  }
+  #img9:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img22:hover{
-  background-color:black;
-  opacity: 0.5;
+  #img11{
+    background-image: url('../res/image1.png');
+    height: 150px;
+    width: 250px;
+  }
+  #img11:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img33{
-  background-image: url('../res/image3.png');
-  height: 150px;
-  width: 250px;
+  #img22{
+    background-image: url('../res/image2.png');
+    height: 150px;
+    width: 250px;
+  }
+  #img22:hover{
+    background-color:black;
+    opacity: 0.5;
 }
-#img33:hover{
-  background-color:black;
-  opacity: 0.5;
+  #img33{
+    background-image: url('../res/image3.png');
+    height: 150px;
+    width: 250px;
+  }
+  #img33:hover{
+    background-color:black;
+    opacity: 0.5;
 }
 #img1{
 background-image: url('https://www.disruptunisia.com/couverture/5cd9f73e0a79c.png') ;
 
 height:700px;
 background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
-
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+ 
 }
-#img2{
+  #img2{
 background-image: url('https://pbs.twimg.com/media/D5FucxVUYAAVJ3I.png');
 height:900px;
 background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 } 
 #img3{
-  background-image: url('https://cdn-images-1.medium.com/max/1600/1*LzxEGZa4xDOFc7Ch67Iprg.jpeg');
+    background-image: url('https://cdn-images-1.medium.com/max/1600/1*LzxEGZa4xDOFc7Ch67Iprg.jpeg');
 height:1000px;
 background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.navbar {
-clear:both;
-overflow:auto;
-}
-
-#logo img {
-float:left;
-}
-
+*/
 li {
-list-style-type: none;
+  list-style-type: none;
 }
 
 ul {
-display: inline-flex;
+  display: inline-flex;
 }
 .btnCourses1{
-margin-top:70px;
-display:none;
-
+  margin-top:70px;
+  display:none;
+  
 }
 
 .btnCourses1Hover{
-display:inline !important;
-opacity: 1 !important;
+  display:inline !important;
+  opacity: 1 !important;
 }
 
 
 
 /* The Modal (background) */
 .modal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-background-color: #fefefe;
-margin: 15% auto; /* 15% from the top and centered */
-padding: 20px;
-border: 1px solid #888;
-width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-color: #aaa;
-float: right;
-font-size: 28px;
-font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: black;
-text-decoration: none;
-cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  bottom: 100px;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 15;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

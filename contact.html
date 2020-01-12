@@ -3,29 +3,37 @@
     <head>
         <link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-</head> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head> 
 <body> 
-    <div class="navbar">
-        <div id="logo"><img src="res/section2GMCLogo.png"></div>
-        <nav style="text-align: center">
-            <ul>
-                <li><a href="index.html"> Home</a></li>
-
-                <li><a href="courses.html">Courses</a></li>
-
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-inverse" >
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="https://gomycode.tn/images/section2GMCLogo.png" style="width:50px;height:50px;"></a>
+          </div>
+          <ul class="nav navbar-nav" id="ulNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav> 
+            
         </nav>
-    </div>
         <center>
+            <div class="container-fluid">
                 <h1>contact</h1>
+               <form id="contactForm">
+                
                 <br>
                 <label>name</label>
-                <br>
-                <input type="text" placeholder="john droe">
+              <br>
+              
+              <input type="text" id="name" name="name" placeholder="john droe">
                 <br>
                 <label>track</label>
                 <br>
+
                 <select>
                     <option>WEB</option>
                     <option>IA</option>
@@ -34,15 +42,31 @@
                 <br>
                 <label>Email Adress</label>
                 <br>
-                <input type= Email Adress>
+                <input type= "Email" id="email" name="email"  >
                 <br> 
                 <label>Phone Number</label>
                 <br>
-                <input type = Phone Number>
+                <input type = "Phone" id="phone" name="phone">
                 <br>
                 <button>submit</button>
+                <input type="submit" value"Submit" id="submitButton">
                 <button>Submit</button>
+            </form>
+            <!--
+                <form id="contactForm">
+                    <input type="text" id="name" name="name">
+                    <input type="email" id="email" name="email">
+                    <input type="password" id="password" name="password">
+                    <textarea cols="50" rows="50" id="message"></textarea>
+                    <input type="submit" value="Submit" id="submitButton">
+                </form>
+                -->
         </center>
+    </div>
     </body>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     </html>
